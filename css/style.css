@@ -1,0 +1,108 @@
+* {
+  border-radius: 0 !important;
+}
+body{
+  margin-top: 90px;
+}
+.navbar{
+  box-shadow: 2px 2px 5px #ff8c19;
+  background: #fff;
+  opacity: 0.9;
+}
+.nav-item{
+  font-size: 1.4rem;
+  padding-right: 20px;
+}
+.nav-item:last-child{
+  padding-right: 0;
+}
+.navbar .nav-item .nav-link{
+  color: #252525;
+}
+.navbar .nav-item .nav-link:hover{
+  color:  #ff8c19;
+}
+#showcase{
+  position: relative;
+  background-image: url('../img/bg-banner.jpg');
+  background-size: cover;
+  min-height: 550px;
+
+}
+#showcase .orange-overlay{
+  background: rgba(255,90,0,0.6);
+  min-height: 550px;
+  position: absolute;
+  top:0;
+  left:0;
+  height: 100%;
+  width: 100%;
+}
+#subscribe{
+  background-color: #252525;
+}
+.my-bg-primary{
+  background-color: #ff8c19;
+}
+#boxes .card{
+  border: 1px solid #ff8c19;
+}
+.box-style1 h3{
+  color: #ff8c19;
+}
+.box-style2{
+  background-color: #ff8c19;
+  color: #fff;
+}
+#about h2{
+  color:#ff8c19;
+}
+#authors h2{
+  color:#ff8c19;
+}
+#authors img{
+  margin-top: -50px;
+}
+#authors .fa{
+  font-size: 25px;
+  color: #ff8c19;
+}
+#authors .card:hover{
+  background-color: #ff8c19;
+  color: #fff;
+}
+#authors .card:hover .fa{
+  color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:576px) {
+  #showcase h1{
+    font-size: 4rem;
+  }
+}
